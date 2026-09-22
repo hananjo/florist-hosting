@@ -27,6 +27,29 @@ export default function Home() {
             Order Now
           </button>
         </section>
+
+        {/* Gallery Section */}
+        <section id="gallery" className="max-w-6xl mx-auto px-4 py-20">
+          <h2 className="text-4xl font-bold text-black mb-12 text-center">Our Arrangements</h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Arrangement Card 1 */}
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect fill='%23e5e7eb' width='400' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='16' fill='%23999' text-anchor='middle' dy='.3em'%3ESunset Romance%3C/text%3E%3C/svg%3E" alt="Sunset Romance" className="w-full h-64 object-cover"/>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-black mb-2">Sunset Romance</h3>
+                <p className="text-gray-600 text-sm mb-4"> Roses, dahlias, and eucalyptus</p>
+                <div className="flex justify-between items-center">
+                  <span className="text-2xl font-bold text-black">$75</span>
+                  <button className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800">Add</button>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </section>
     </div>
   )
 }
