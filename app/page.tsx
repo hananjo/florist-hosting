@@ -34,11 +34,11 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Arrangement Card 1 */}
-            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition">
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition flex flex-col">
             <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect fill='%23e5e7eb' width='400' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='16' fill='%23999' text-anchor='middle' dy='.3em'%3ESunset Romance%3C/text%3E%3C/svg%3E" alt="Sunset Romance" className="w-full h-64 object-cover"/>
-              <div className="p-6">
+              <div className="p-6 flex flex-col flex-1 justify-between">
                 <h3 className="text-xl font-bold text-black mb-2">Sunset Romance</h3>
-                <p className="text-gray-600 text-sm mb-4"> Roses, dahlias, and eucalyptus</p>
+                <p className="text-gray-600 text-sm mb-4 flex-1"> Roses, dahlias, and eucalyptus</p>
                 <div className="flex justify-between items-center">
                   <span className="text-2xl font-bold text-black">$75</span>
                   <button className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800">Add</button>
@@ -46,7 +46,71 @@ export default function Home() {
               </div>
             </div>
 
+            {/* Arrangement Card 2 */}
+            <div className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition flex flex-col">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect fill='%23e5e7eb' width='400' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='16' fill='%23999' text-anchor='middle' dy='.3em'%3ESunset Romance%3C/text%3E%3C/svg%3E" alt="Sunset Romance" className="w-full h-64 object-cover"/>
+               <div className="p-6 flex flex-col flex-1 justify-between">
+                <h3 className="text-xl font-bold text-black mb-2">Garden Dream</h3>
+                <p className="text-gray-600 text-sm mb-4 flex-1"> Hydrangeas, roses, and greenery</p>
+                <div className="flex justify-between items-center">
+                  <span className="text-2xl font-bold text-black">$85</span>
+                  <button className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800">Add</button>
+                </div>
+              </div>
+            </div>
 
+          {/* Arrangement Card 3 */}
+          <div className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition flex flex-col">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect fill='%23e5e7eb' width='400' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='16' fill='%23999' text-anchor='middle' dy='.3em'%3ESunset Romance%3C/text%3E%3C/svg%3E" alt="Sunset Romance" className="w-full h-64 object-cover"/>
+            <div className="p-6 flex flex-col flex-1 justify-between">
+              <h3 className="text-xl font-bold text-black mb-2">Spring Bliss</h3>
+              <p className="text-gray-600 text-sm mb-4 flex-1">Tulips, lilies, and carnations</p>
+              <div className="flex justify-between items-center">
+                <span className="text-2xl font-bold text-black">$65</span>
+                <button className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800">Add</button>
+              </div>
+            </div>
+          </div>
+
+  {/* Arrangement Card 4 */}
+  <div className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition flex flex-col">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect fill='%23e5e7eb' width='400' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='16' fill='%23999' text-anchor='middle' dy='.3em'%3ESunset Romance%3C/text%3E%3C/svg%3E" alt="Sunset Romance" className="w-full h-64 object-cover"/>
+            <div className="p-6 flex flex-col flex-1 justify-between">
+              <h3 className="text-xl font-bold text-black mb-2">Tropical Paradise</h3>
+              <p className="text-gray-600 text-sm mb-4 flex-1">Birds of paradise, anthurium, heliconia</p>
+              <div className="flex justify-between items-center">
+                <span className="text-2xl font-bold text-black">$95</span>
+                <button className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800">Add</button>
+              </div>
+            </div>
+          </div>
+
+
+            {/* Arrangement Card 5 */}
+  <div className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition flex flex-col">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect fill='%23e5e7eb' width='400' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='16' fill='%23999' text-anchor='middle' dy='.3em'%3ESunset Romance%3C/text%3E%3C/svg%3E" alt="Sunset Romance" className="w-full h-64 object-cover"/>
+            <div className="p-6 flex flex-col flex-1 justify-between">
+              <h3 className="text-xl font-bold text-black mb-2">Elegant White</h3>
+              <p className="text-gray-600 text-sm mb-4 flex-1">White roses, peonies, and baby's breath</p>
+              <div className="flex justify-between items-center">
+                <span className="text-2xl font-bold text-black">$150</span>
+                <button className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800">Add</button>
+              </div>
+            </div>
+          </div>
+
+           {/* Arrangement Card 6 */}
+           <div className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition flex flex-col">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect fill='%23e5e7eb' width='400' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='16' fill='%23999' text-anchor='middle' dy='.3em'%3ESunset Romance%3C/text%3E%3C/svg%3E" alt="Sunset Romance" className="w-full h-64 object-cover"/>
+            <div className="p-6 flex flex-col flex-1 justify-between">
+              <h3 className="text-xl font-bold text-black mb-2">Wildflower Mix</h3>
+              <p className="text-gray-600 text-sm mb-4 flex-1">Sunflowers, daisies, and zinnia</p>
+              <div className="flex justify-between items-center">
+                <span className="text-2xl font-bold text-black">$70</span>
+                <button className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800">Add</button>
+              </div>
+            </div>
+          </div>
 
           </div>
         </section>
