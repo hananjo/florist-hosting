@@ -112,6 +112,30 @@ export default function Home() {
             </div>
           </div>
 
+
+          </div>
+        </section>
+
+        {/* About Section */}
+        <section id="about" className="max-w-6xl mx-auto px-4 py-20">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-4xl font-bold text-black mb-6">About Bloom & Co</h2>
+              <p className="text-lg text-gray-600 mb-4">
+                At Bloom & Co, we believe flowers tell a story. Every arrangement is carefully crafted with passion and attention to detail, using only the freshest blooms sourced from local and sustainable growers.
+              </p>
+              <p className='text-lg text-gray-600 mb-4'>
+                With over 15 years of experience in floristry, our team is dedicated to creating beautiful moments for your special occasions. Whether it's a birthday, anniversary, or just because, we're here to make your day more beautiful.
+              </p>
+              <p className='text-lg text-gray-600'>
+                We offer weekly arrangements delivered fresh to your door, custom designs for special events, and wedding floristry services. Let us bring nature's beauty into your life.
+              </p>
+            </div>
+
+            <div className="bg-gray-200 h-96 rounded-lg flex items-center justify-center">
+              <span className="text-gray-500">Florist Photo Here</span>
+            </div>
+
           </div>
         </section>
     </div>
