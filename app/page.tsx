@@ -61,10 +61,10 @@ export default function Home() {
 
           {/* Arrangement Card 3 */}
           <div className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition flex flex-col">
-          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Crect fill='%23e5e7eb' width='400' height='400'/%3E%3Ctext x='50%25' y='50%25' font-size='16' fill='%23999' text-anchor='middle' dy='.3em'%3ESunset Romance%3C/text%3E%3C/svg%3E" alt="Sunset Romance" className="w-full h-64 object-cover"/>
+          <img src="https://res.cloudinary.com/dwphwqyrn/image/upload/f_jpg/v1791332010/IMG_8850_om7xn1.heic" alt="Sunset Romance" className="w-full h-64 object-cover"/>
             <div className="p-6 flex flex-col flex-1 justify-between">
               <h3 className="text-xl font-bold text-black mb-2">Spring Bliss</h3>
-              <p className="text-gray-600 text-sm mb-4 flex-1">Tulips, lilies, and carnations</p>
+              <p className="text-gray-600 text-sm mb-4 flex-1">Lemon leaf, roses, alstromeria, daisies, and mini roses.</p>
               <div className="flex justify-between items-center">
                 <span className="text-2xl font-bold text-black">$65</span>
                 <button className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800">Add</button>
